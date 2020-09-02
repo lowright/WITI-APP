@@ -1,0 +1,35 @@
+.headerBack-wrapper{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	padding: 18px 25px;
+	background-color: #fff;
+	align-items: center;
+}
+
+.headerBack-wrapper div{
+	width: 50%;
+	align-items: center;
+}
+
+.headerBack-wrapper button{
+	border : 0;
+	background-color: transparent;
+	margin-right: 20px;
+}
+
+.headerBack-wrapper button img{
+	height: 12px;
+}
+
+.headerBack-wrapper h2{
+	color: #14213D;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 16px;
+}
+
+h2{
+	margin: 0 !important; 
+}

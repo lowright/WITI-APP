@@ -1,0 +1,8 @@
+.wrapper-change{
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper-change label {
+	margin-bottom: 15px;
+}

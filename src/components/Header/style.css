@@ -1,0 +1,19 @@
+.header-wrapper{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 25px;
+	background-color: #fff;
+}
+
+.header-wrapper h2{
+	color: #14213D;
+	font-size: 28px;
+	font-weight: 800;
+	letter-spacing: 0;
+	line-height: 28px;
+}
+
+.settings-btn{
+	background-color: transparent;
+	border : 0;
+}

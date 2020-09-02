@@ -1,0 +1,38 @@
+*{ 
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+*:focus{
+  outline: 0;
+  box-shadow: none;
+}
+
+.ReactStickyHeader_root{
+  margin-bottom: 84px;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+p{ margin-bottom: 0 !important;}
+
+.loader{
+  position: relative;
+  height: 100vh;
+}
+
+.loader div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}

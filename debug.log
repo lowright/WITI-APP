@@ -1,0 +1,4 @@
+[0819/224926.397:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0819/224926.397:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0819/224926.397:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[0819/224926.413:ERROR:exception_snapshot_win.cc(98)] thread ID 9012 not found in process

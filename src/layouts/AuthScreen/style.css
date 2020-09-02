@@ -1,0 +1,122 @@
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	color : #fff;
+	min-height: 100vh;
+	justify-content: space-around	;
+}
+
+.authInput{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.submitBtn{
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+.logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.authInput{
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 0 30px 0 30px;
+	width: 33%;
+}
+
+.authInput h3{
+	color: #14213D;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 24px;
+	margin-bottom: 15px;
+}
+
+.authInput p{
+	color: #B6BFBF;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 18px;
+	width: 233px;
+	margin-bottom: 30px;
+}
+
+.phoneInput, .phoneInput input{
+	width: -webkit-fill-available;
+}
+
+.phoneInput input{
+	border: 0;
+	border: transparent;
+	color : #fff;
+	padding: 20px 30px;
+	background-color: rgb(43, 55, 80);
+	border-radius: 15px;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 16px;
+}
+
+.phoneInput input::placeholder{
+	opacity: 0.5;
+	color: #B6B9BF;
+}
+
+.errorPhoneInput{
+	color : red;
+	font-size: 0.7em;
+	margin-top: 10px;
+}
+
+.arrow-right{
+	height: 12px;
+	width: 20px;
+}
+
+.submit{
+	padding: 24px 22px;
+	border-radius: 16px;
+	background-color: #E63946;
+	border : 0;
+}
+
+.PhoneInput{
+	border: 0;
+	border: transparent;
+	color : #B6B9BF;
+	padding: 20px 30px;
+	background-color: #F7F7F7;
+	border-radius: 15px;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 16px;
+	width: -webkit-fill-available !important;
+
+}
+
+.PhoneInputInput{
+	background-color: transparent;
+	border: 0;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 16px;
+	color : #B6B9BF;
+}

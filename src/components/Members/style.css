@@ -1,0 +1,21 @@
+.members-wrapper{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.members-wrapper img{
+	width:32px;
+    border-radius: 50%;
+	height: 32px;
+	margin-right: 15px;
+}
+
+.members-wrapper p{
+	color: #14213D;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 16px;
+}

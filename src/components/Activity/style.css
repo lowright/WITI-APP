@@ -1,0 +1,109 @@
+.wrapper-activity{
+	border-radius: 15px;
+	background-color: #F7F7F7;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+
+.inner-wrap{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.activity-logo{
+	opacity: 0.1;
+	background-color: #969ca72e;
+	border-radius: 50%;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 15px;
+}
+
+.activity-logo, .activity-date{
+	width: 20%;
+}
+
+.activity-describe {
+	width: 60%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+	justify-content: space-around;
+}
+
+.activity-describe h2{
+	color: #14213D;
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: 16px;
+	margin-bottom: 11px !important;
+	font-weight: 600;
+}
+
+.activity-describe p{
+	color: #7E838C;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 14px;
+}
+
+.activity-describe span {
+	color: #B6B9BF;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 12px;
+}
+
+.activity-date h2{
+	color: #B6B9BF;
+	font-size: 11px;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 12px;
+	text-align: right;
+}
+
+.activity-date{
+	display: flex;
+	height: 60px;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.activity-date div{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.activity-date span{
+	height: 20px;
+	width: 20px;
+	border-radius: 7px;
+	background-color: #14213D;
+	color : #fff;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 0;
+	margin-left: 3px;
+}
+
+.bottomDescr{
+	display: flex;
+	padding: 0 15px;
+}
+
+.subDescr{
+	color: #B6B9BF;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 12px;
+}

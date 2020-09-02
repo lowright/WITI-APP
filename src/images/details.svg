@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="4px" height="21px" viewBox="0 0 4 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
+    <title>15B72DC1-61B9-41C4-99AA-F2B214A35A1D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-0.7%" y="-3.7%" width="101.3%" height="106.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.28627451   0 0 0 0 0.215686275   0 0 0 0 0.278431373  0 0 0 0.05 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chat" transform="translate(-341.000000, -55.000000)" fill="#969CA7">
+            <g id="Navbar" filter="url(#filter-1)">
+                <path d="M343,71 C344.104569,71 345,71.8954305 345,73 C345,74.1045695 344.104569,75 343,75 C341.895431,75 341,74.1045695 341,73 C341,71.8954305 341.895431,71 343,71 Z M343,63 C344.104569,63 345,63.8954305 345,65 C345,66.1045695 344.104569,67 343,67 C341.895431,67 341,66.1045695 341,65 C341,63.8954305 341.895431,63 343,63 Z M343,55 C344.104569,55 345,55.8954305 345,57 C345,58.1045695 344.104569,59 343,59 C341.895431,59 341,58.1045695 341,57 C341,55.8954305 341.895431,55 343,55 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

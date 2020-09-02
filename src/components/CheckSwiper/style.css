@@ -1,0 +1,59 @@
+.isActive{
+	color: #7E838C;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 22px;
+} 
+
+.noActive{
+	color: #14213D;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 22px;
+}
+
+.check-swiper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 18px 0;
+}
+
+.check-swiper label{
+	width: 50px;
+    height: 30px;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+    transition: .3s ease;
+    background-color: grey;
+    margin: 0 10px;
+}
+
+.check-swiper input[type=checkbox]:checked + label{
+	background:#FCA311;
+}
+.check-swiper input[type=checkbox]:checked + label:before{
+	left:22px;
+}
+
+.check-swiper input{
+	display:none;  
+}
+
+.check-swiper label:before{
+	transition: .3s ease;
+	content: '';
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	background: white;
+	left: 3px;
+	top: 2px;
+	box-sizing: border-box;
+	border-radius: 100px;
+}
